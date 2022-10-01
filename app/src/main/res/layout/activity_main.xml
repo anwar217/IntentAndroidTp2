@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/design_default_color_surface"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
 
@@ -24,27 +24,35 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="359dp"
+        android:layout_width="300dp"
         android:layout_height="67dp"
 
         android:text="Show me"
         android:layout_marginTop="52dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="359dp"
+        android:layout_width="300dp"
         android:layout_height="67dp"
         android:layout_marginTop="52dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="Lorry Test" />
+        android:text="Lorry Test"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="359dp"
+        android:layout_width="300dp"
         android:layout_height="67dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:text="Event Day"
         android:layout_marginTop="52dp"
         android:layout_marginLeft="20dp"
