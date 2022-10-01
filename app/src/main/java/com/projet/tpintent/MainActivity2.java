@@ -16,12 +16,12 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         tv=findViewById(R.id.tv);
+        btn=findViewById(R.id.btn);
         tv.setText("Hi "+getIntent().getStringExtra("Name"));
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(MainActivity2.this, MainActivity.class);
-               startActivity(it);
+                MainActivity2.this.finish();
             }
         });
     }
